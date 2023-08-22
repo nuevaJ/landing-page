@@ -1,112 +1,188 @@
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background: #1f2937;
+}
+
+ul{
+    list-style: none;
+}
+
+.sub-section  {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
 }
 
 .section-1{
-    display: flex;
-    background-color: #1F2937;
-    justify-content: center;
-    padding: 30px;
+    color: #fff;
+    height: 60px;
 }
 
-.header {
-    width: 75%;
-    display: flex;
-    justify-content: space-between; 
+
+
+.sub-section .logo {
+    font-size: x-large;
+    font-weight: bold;
 }
 
-.logo {
+.sub-section a{
     text-decoration: none;
-    color: #F9FAF8;
-    font-size: 24px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
 }
 
-.ul-container {
+.section-1 .sub-section{
     display: flex;
-    width: 20%;
     justify-content: space-between;
-    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
 }
 
-.ul-container li,
-.ul-container a{
-    text-decoration: none;
-    list-style: none;
-    color: #F9FAF8;
-    font-size: 24px;
+.sub-section .ul-container{
+    display: flex;
+}
+
+.sub-section ul li{
+    margin-left: 20px;
 }
 
 .section-2{
-    display: flex;
-    justify-content: center;
-    background-color: #1F2937;
-    padding: 30px;
-}
-
-.sub-section-2{
-    width: 75%;
+    color: #f9f4f8;
+    min-height: 600px;
     display: flex;
 }
 
-.intro-left{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-}
-
-.greetings{
+.section-2 h1{
     font-size: 48px;
-    font-weight: bolder;
-    color: #F9FAF8;   
+    line-height: 1.2;
+    margin-bottom: 15px;
 }
 
-.description{
-    font-size: 18px;
-    color: #E5E7EB;
-    margin: 30px 0
+.section-2 img{
+    max-width: 300px;
 }
 
-.btn-sign-up{
-    color: #3882F6;
-    cursor: pointer;
-    padding: 10px;
-    border-radius: 1em;
-}
-
-.intro-right {
-    width: 50%;
+.section-2 .sub-section{
     display: flex;
-    justify-content: center;
-}
-
-.section-3{
-    display: flex;
-    justify-content: center;
     align-items: center;
 }
 
-.sub-section-3{
+.section-2 .sign-up-link button{
+    background: #3882f6;
+    font-size: 16px;
+    border-radius: 13px;
+    padding: 10px 30px;
+    color: #e5e7eb;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+
+.section-3{
+    background: #f9f4f8;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.section-3 .sub-section{
     display: flex;
     flex-direction: column;
-    width: 75%;
+    align-items: center;
+    max-width: 1100px;
 }
 
-h1{
-    font-size: 36px;
-    color: #1f2937;
-    font-weight: bolder;
-    margin: 50px auto;
-}
-
-.lower-images-text{
+.sub-section .lower-images-text{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
-.lower-images-text img{
-    width: 250px;
+.image img{
+    max-width: 200px;
+    border: solid blue 2px;
 }
 
+
+
+.section-4{
+    background: #e5e7eb;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.section-4 .sub-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-section .main-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    /* font-style: italic; */
+}
+
+.sub-section .reference-text{
+    margin-left: auto;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.section-5{
+    background: #f9f4f8;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.section-5 .sub-section{
+    background-color: #3882f6;
+    display: flex;
+    padding: 20px 50px;
+    width: 1100px;
+    border-radius: 30px;
+    justify-content: space-around;
+}
+
+.section-5 .left-row h1,
+.section-5 .left-row h4{
+    color: #f9f4f8;
+}
+
+.right-row:nth-last-of-type(1){
+    align-self:center;
+}
+
+.right-row button{
+    background: #3882f6;
+    color: #f9f4f8;
+    padding: 15px 50px;
+    border-radius: 15px;
+    border-color: #f9f4f8;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.section-6{
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.section-6 .sub-section{
+    color: #f9f4f8;
+    font-weight: bolder;
+    font-size: 16px;
+    height: 100%;
+}
